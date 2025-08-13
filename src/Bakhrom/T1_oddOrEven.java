@@ -4,7 +4,7 @@ public class T1_oddOrEven {
 
     public static void main(String[] args) {
 
-        oddOrEven(5);
+        oddOrEven(3);
 
     }
 
@@ -12,8 +12,10 @@ public class T1_oddOrEven {
 
         if(number % 2 == 0){
             System.out.println(number + " is an even number");
+        }else if(number % 2 != 0){
+            System.out.println(number + " is an odd number");
         }else{
-            System.out.println(number + " is an odd number" );
+            System.out.println(number + " is not odd or even");
         }
 
     }
