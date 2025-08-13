@@ -4,14 +4,17 @@ public class T1_oddOrEven {
 
     public static void main(String[] args) {
 
-        int number = 0;
+        oddOrEven(5);
 
-        boolean isEven =  number % 2 == 0;
+    }
 
-        boolean isOdd = !isEven;
+    public static void oddOrEven(int number){
 
-        System.out.println(number + " is an even number: " + isEven);
-        System.out.println(number + " is an odd number: " + isOdd);
+        if(number % 2 == 0){
+            System.out.println(number + " is an even number");
+        }else{
+            System.out.println(number + " is an odd number" );
+        }
 
     }
 
