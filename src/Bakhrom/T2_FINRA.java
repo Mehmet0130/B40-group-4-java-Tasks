@@ -4,7 +4,13 @@ public class T2_FINRA {
 
     public static void main(String[] args) {
 
-        for (int i = 1; i < 30; i++) {
+        finra(50);
+
+    }
+
+    public static void finra (int number){
+
+        for (int i = 1; i < number; i++) {
             if(i % 3 == 0 && i % 5 == 0){ //if number is divisible BOTH 3 and 5, then print "FINRA"
                 System.out.println("FINRA");
             }else if(i % 3 ==0){ // but if the number is ONLY divisible by 3, then print "FIN"
