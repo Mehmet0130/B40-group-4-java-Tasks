@@ -9,54 +9,73 @@ public class T3_swapTwoNumbers {
         System.out.println("Method option");
         swap(1, 2); //method option
         swap(1.5, 2.5);
+        swap("SDET", "Developer");
 
-        int num1 = 10, num2 = 20;
+        System.out.println("=========================================");
+
+        int var1 = 10, var2 = 20;
 
         System.out.println("\nBefore swapping");
-        System.out.println("num1 = " + num1);
-        System.out.println("num2 = " + num2);
+        System.out.println("var1 = " + var1);
+        System.out.println("var2 = " + var2);
 
 
-        num1 = num2 + num1;
-        num2 = num1 - num2;
-        num1 = num1 - num2;
+        var1 = var2 + var1;
+        var2 = var1 - var2;
+        var1 = var1 - var2;
 
 
         System.out.println("\nAfter swapping");
-        System.out.println("num1 = " + num1);
-        System.out.println("num2 = " + num2);
+        System.out.println("var1 = " + var1);
+        System.out.println("var2 = " + var2);
 
 
     }
 
-    public static void swap(int num1, int num2){
+    public static void swap(int var1, int var2){
 
         System.out.println("\nBefore swapping");
-        System.out.println("num1 = " + num1);
-        System.out.println("num2 = " + num2);
+        System.out.println("var1 = " + var1);
+        System.out.println("var2 = " + var2);
 
-        num1 = num2 + num1;
-        num2 = num1 - num2;
-        num1 = num1 - num2;
+        var1 = var2 + var1;
+        var2 = var1 - var2;
+        var1 = var1 - var2;
 
         System.out.println("\nAfter swapping");
-        System.out.println("num1 = " + num1);
-        System.out.println("num2 = " + num2);
+        System.out.println("var1 = " + var1);
+        System.out.println("var2 = " + var2);
     }
 
-    public static void swap(double num1, double num2){
+    public static void swap(double var1, double var2){
 
         System.out.println("\nBefore swapping");
-        System.out.println("num1 = " + num1);
-        System.out.println("num2 = " + num2);
+        System.out.println("var1 = " + var1);
+        System.out.println("var2 = " + var2);
 
-        num1 = num2 + num1;
-        num2 = num1 - num2;
-        num1 = num1 - num2;
+        var1 = var2 + var1;
+        var2 = var1 - var2;
+        var1 = var1 - var2;
 
         System.out.println("\nAfter swapping");
-        System.out.println("num1 = " + num1);
-        System.out.println("num2 = " + num2);
+        System.out.println("var1 = " + var1);
+        System.out.println("var2 = " + var2);
+    }
+
+    public static void swap(String var1, String var2){
+
+        System.out.println("\nBefore swapping");
+        System.out.println("var1 = " + var1);
+        System.out.println("var2 = " + var2);
+
+        var1 = var1 + var2;
+        var2 = var1.substring(0, var1.length() - var2.length());
+        var1 = var1.substring(var2.length());
+
+        System.out.println("\nAfter swapping");
+        System.out.println("var1 = " + var1);
+        System.out.println("var2 = " + var2);
+
     }
 
 
