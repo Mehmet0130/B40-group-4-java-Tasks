@@ -2,7 +2,7 @@ package Ablimit;
 
 public class Week05_FrequencyOfCharacters {
     public static void main(String[] args) {
-               String str="AAFDF";
+               String str="AAFDFhhhhfffhhh";
         String[] arr = str.split("");
 
         String result = "";
