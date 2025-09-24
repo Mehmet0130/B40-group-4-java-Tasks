@@ -1,6 +1,6 @@
 package weeklyTasksFromTroy;
 
-public class SwapTwoNumbers {
+public class Week03_SwapTwoNumbers {
 
     /*
     Swap two variable values without using a third variable
