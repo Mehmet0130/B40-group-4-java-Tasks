@@ -1,6 +1,6 @@
 package weeklyTasksFromTroy;
 
-public class finra {
+public class Week02_Finra {
 
 
     /*
