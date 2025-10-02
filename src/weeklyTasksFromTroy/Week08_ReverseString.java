@@ -10,7 +10,7 @@ public class Week08_ReverseString {
         Ex: Reverse("ABCD"); ==> DCBA
      */
 
-    //Bakhroom will explain
+    //Bakhroom will explain or maybe Aliya
     public static String reverseString(){
         String original ="ABCD";
         String reverse=" ";
